@@ -11,6 +11,10 @@
 **Projeto:** BloodShot
 
 **Repositório:** https://github.com/FelipeLuchini/Grupo5-ADS-Salto
+## Grupo: 06
+**Projeto:** Pet'sGram
+
+**Repositório:** https://github.com/CarvalhoCa/Analise-e-Projetos-de-Sistemas---Grupo-6 
 ## Grupo: 07
 **Projeto:** ConstruMath
 
