@@ -1,4 +1,8 @@
 # Lista de repositório dos grupos ADS 2º e 3º - Salto 2024
+## Grupo: 01
+**Projeto:** RCF Alunos
+
+**Repositório:** https://github.com/Joao1204/Projeto-RCF-Alunos-
 ## Grupo: 03
 **Projeto:** Manual de Móveis
 
@@ -7,6 +11,10 @@
 **Projeto:** BloodShot
 
 **Repositório:** https://github.com/FelipeLuchini/Grupo5-ADS-Salto
+## Grupo: 07
+**Projeto:** ConstruMath
+
+**Repositório:** https://github.com/VianaGu/ConstruMath/tree/dev
 ## Grupo: 08
 **Projeto:** Banco de Sangue
 
