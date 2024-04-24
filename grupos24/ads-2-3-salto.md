@@ -7,6 +7,10 @@
 **Projeto:** Manual de Móveis
 
 **Repositório:** https://github.com/KaioAssis/GP-03.git
+## Grupo: 04
+**Projeto:** Ajuda CEUNSP
+
+**Repositório:** https://github.com/matheusidt/ADS-GRUPO-04
 ## Grupo: 05
 **Projeto:** BloodShot
 
