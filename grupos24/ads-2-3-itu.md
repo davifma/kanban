@@ -19,6 +19,10 @@
 **Projeto:**  123... Passei 
 
 **Repositório:** https://github.com/AlexandreAzvd/1-2-3...Passei
+## Grupo: 06
+**Projeto:** Develorper play
+
+**Repositório:** https://github.com/GianlucaBracaliCargnelutti/Developer-Player
 ## Grupo: 07
 **Projeto:** Mapa da CEUNSP 
 
