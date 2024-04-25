@@ -27,3 +27,7 @@
 **Projeto:** Mapa da CEUNSP 
 
 **Repositório:** https://github.com/grupo7ceunsp/docProjetos
+## Grupo: 08
+**Projeto:** Aplicativo para ajudar idosos
+
+**Repositório:** https://github.com/Virto003/AgeAssist/tree/main
