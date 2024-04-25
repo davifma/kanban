@@ -1,4 +1,8 @@
 # Lista de repositório dos grupos ADS 2º e 3º - Itu 2024
+## Grupo: 01
+**Projeto:**  Task List
+
+**Repositório:** https://github.com/GuilhermeFalck/ProjetoFaculdade
 ## Grupo: 02
 **Projeto:** Myjob.com.br
 
