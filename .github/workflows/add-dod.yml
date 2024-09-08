@@ -21,9 +21,9 @@ jobs:
       run: |
         # Texto da Definição de Pronto (Definition of Done) que será adicionado à issue
         TEXT_TO_ADD="### Definição de Pronto: 
-        - Código revisado 
-        - Testes implementados 
-        - Documentação atualizada"
+- [ ] Código revisado 
+- [ ] Testes implementados 
+- [ ] Documentação atualizada"
 
         # Número da issue que acabou de ser criada, extraído do evento
         ISSUE_NUMBER="${{ github.event.issue.number }}"
