@@ -1,6 +1,10 @@
 # Nome da ação para identificação
 name: Add Definition of Done to Issue Description
 
+# Adiciona permissões explícitas para permitir que o token edite issues
+permissions:
+  issues: write
+
 # Evento que dispara a ação: criação de uma nova issue
 on:
   issues:
