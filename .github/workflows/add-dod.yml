@@ -20,7 +20,7 @@ jobs:
     - name: Set description text
       run: |
         # Texto da Definição de Pronto (Definition of Done) que será adicionado à issue
-        TEXT_TO_ADD="### Definição de Pronto: 
+        TEXT_TO_ADD="\#\#\# Definição de Pronto: 
 - [ ] Código revisado 
 - [ ] Testes implementados 
 - [ ] Documentação atualizada"
