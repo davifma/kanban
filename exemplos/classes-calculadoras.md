@@ -1,22 +1,21 @@
 ```mermaid
  classDiagram
     class Calculadora {
-        +adicionar(a, b)
-        +subtrair(a, b)
-        +multiplicar(a, b)
-        +dividir(a, b)
+      +a:float
+      +b:float
+      +executar(a,b)
     }
     class Adicao {
-        +executar(a, b)
+        +adicionar(a, b):operacao
     }
     class Subtracao {
-        +executar(a, b)
+        +subtrair(a, b):operacao
     }
     class Multiplicacao {
-        +executar(a, b)
+        +multiplicar(a, b):operacao
     }
     class Divisao {
-        +executar(a, b)
+        +dividir(a, b):operacao
     }
 
     Calculadora <|-- Adicao
