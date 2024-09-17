@@ -1,4 +1,4 @@
-name: Replace Words in Markdown Files
+name: Trocar Palavras
 
 # Define quando a Action será executada. Nesse caso, ela é executada manualmente através do "workflow_dispatch"
 on:
