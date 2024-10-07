@@ -1,0 +1,71 @@
+openapi: 3.0.0
+info:
+  title: Exemplo de API de Livros
+  description: Uma API simples para gerenciar uma coleção de livros.
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000/api
+    description: Servidor local
+
+paths:
+  /books:
+    get:
+      summary: Lista todos os livros
+      responses:
+        '200':
+          description: Uma lista de livros
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Book'
+    post:
+      summary: Adiciona um novo livro
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Book'
+      responses:
+        '201':
+          description: Livro criado com sucesso
+
+  /books/{bookId}:
+    get:
+      summary: Obtém um livro pelo ID
+      parameters:
+        - name: bookId
+          in: path
+          required: true
+          description: ID do livro
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Detalhes do livro
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Book'
+        '404':
+          description: Livro não encontrado
+
+components:
+  schemas:
+    Book:
+      type: object
+      properties:
+        id:
+          type: string
+          example: "1"
+        title:
+          type: string
+          example: "O Senhor dos Anéis"
+        author:
+          type: string
+          example: "J.R.R. Tolkien"
+        year:
+          type: integer
+          example: 1954
